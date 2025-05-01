@@ -1,4 +1,4 @@
-FROM docker.io/python3.12-alpine3.21
+FROM docker.io/python:3.12-alpine3.21
 RUN pip3 install flask
 RUN mkdir /app
 COPY index.py /app/
